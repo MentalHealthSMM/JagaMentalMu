@@ -1,58 +1,187 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>P5 Mental Health</title>
-	<link rel="shortcut icon" href="logoo.svg">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-  </head>
-  <body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>P5 Mental Health</title>
+		<link rel="shortcut icon" href="logoo.svg">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+	</head>
+	<body>
 
-	<!-- NavBar -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-dark p-2">
-		<a class="navbar-brand text-white" href="index.html">
-			<img src="logoo.svg" width="45" height="45" alt="">
-			Mental Health
-		</a>
-		<ul>
-			<li>
-				<a href="Kami.html" class="navbar-brand text-white">Tentang Kami</a>
-			</li>
-		</ul>
-	</nav>
+		<!-- NavBar -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-dark p-2">
+			<a class="navbar-brand text-white" href="index.html">
+				<img src="logoo.svg" width="45" height="45" alt="">
+				Mental Health
+			</a>
+			<ul>
+				<li>
+					<a href="#tentangkami" class="navbar-brand text-white">Tentang Kami</a>
+				</li>
+			</ul>
+		</nav>
 
-	<!-- Bagian Jumbotron dengan Link -->
-	<div>
-		<div class="p-5 text-center bg-image" style="background-image: url(Latar\ Web.png);">
-		    <div class="container py-5 text-white">
-				<h1>Karena Kesehatan Mental itu Penting</h1>
-				<p class="col-lg-8 mx-auto lead">
-					Masyarakat Indonesia kerap kali belum paham sepenuhnya tentang kesehatan mental. Ada pepatah Latin yang berbunyi <i>Mens sana in corpore sano</i> yang artinya jiwa yang sehat dalam tubuh yang sehat.
-				</p>
-				<br>
-				<p>
-					Pelajari lebih lanjut
-				</p>
-				<br>
+		<!-- Bagian Jumbotron dengan Link -->
+		<div>
+			<div class="p-5 text-center bg-image" style="background-image: url(Latar\ Web.png);">
+				<div class="container py-5 text-white">
+					<h1>Karena Kesehatan Mental itu Penting</h1>
+					<p class="col-lg-8 mx-auto lead">
+						Masyarakat Indonesia kerap kali belum paham sepenuhnya tentang kesehatan mental. Ada pepatah Latin yang berbunyi <i>Mens sana in corpore sano</i> yang artinya jiwa yang sehat dalam tubuh yang sehat.
+					</p>
+					<br>
+					<p>
+						Pelajari lebih lanjut
+					</p>
+					<br>
 
-				<a href="https://drive.google.com/file/d/1XWU5eOSeDxk0YXJK_zFvc6wCVbaHrw7F/view?usp=share_link" target="_blank" class="btn btn-outline-light" role="button" aria-pressed="true">Video</a>
-				
-				<br>
-				<br>
-				
-				<a href="https://drive.google.com/file/d/1BdFpZhvSPPIw9ydFqFCQ8lPLKFsyZv9Y/view?usp=share_link" target="_blank" class="btn btn-outline-light" role="button" aria-pressed="true">Infografis</a>
-				
-				<br>
-				<br>
-				
-				<a href="https://drive.google.com/file/d/1-Hj8MjgY9HiGB14lS5kCrLRC5efJUnV8/view?usp=share_link" target="_blank" class="btn btn-outline-light" role="button" aria-pressed="true">Brosur</a>
+					<a href="https://drive.google.com/file/d/1XWU5eOSeDxk0YXJK_zFvc6wCVbaHrw7F/view?usp=share_link" target="_blank" class="btn btn-outline-light" role="button" aria-pressed="true" title="Video Stimulus tentang Kesehatan Mental">Video</a>
+					
+					<br>
+					<br>
+					
+					<a href="https://drive.google.com/file/d/1BdFpZhvSPPIw9ydFqFCQ8lPLKFsyZv9Y/view?usp=share_link" target="_blank" class="btn btn-outline-light" role="button" aria-pressed="true" title="Infografis dan Data tentang Kesehatan Mental">Infografis</a>
+					
+					<br>
+					<br>
+					
+					<a href="https://drive.google.com/file/d/1-Hj8MjgY9HiGB14lS5kCrLRC5efJUnV8/view?usp=share_link" target="_blank" class="btn btn-outline-light" role="button" aria-pressed="true" title="Brosur dan Saran ketika mengalami mental down">Brosur</a>
 
+				</div>
 			</div>
 		</div>
-	</div>
+
+		<hr class="hr">
+
+		<!-- Tentang Kami -->
+		<div id="tentangkami">
+			<div class="p-5 text-center bg-image" style="background-image: url(Latar\ Web.png);">
+				<div class="container py-5 text-white">
+					<h1>Kami yang Peduli</h1>
+					<p class="col-lg-8 mx-auto lead">
+						Karena sendirian tidak akan menyelesaikan <i>masalah</i>.
+					</p>
+					<br>
+					<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-indicators">
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11" aria-label="Slide 12"></button>
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="12" aria-label="Slide 13"></button>
+						</div>
+
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<h5>Benito</h5>
+								<a href="https://instagram.com/gregorius_benito/" target="_blank" class="btn btn-outline-light" role="button" aria-pressed="true" title="Benito">Instagram</a>
+								<br><br>
+								<img src="p/Benito.JPG" class="d-block w-100" alt="Benito">
+							</div>
+							<div class="carousel-item">
+								<h5>Agiel</h5>
+								<a href="https://www.instagram.com/agl.mady_/" target="_blank" class="btn btn-outline-light" role="button" aria-pressed="true" title="Agiel">Instagram</a>
+								<br><br>
+								<img src="p/Agiel.JPG" class="d-block w-100" alt="Agiel">
+							</div>
+							<div class="carousel-item">
+								<h5>Ragil</h5>
+								<a href="https://www.instagram.com/fx.ragil/" target="_blank" class="btn btn-outline-light" role="button" aria-pressed="true" title="Ragil">Instagram</a>
+								<br><br>
+								<img src="p/Ragil.JPG" class="d-block w-100" alt="Ragil">
+							</div>
+							<div class="carousel-item">
+								<h5>Tito</h5>
+								<a href="https://www.instagram.com/_sebastiantito/" target="_blank" class="btn btn-outline-light" role="button" aria-pressed="true" title="Tito">Instagram</a>
+								<br><br>
+								<img src="p/Tito.JPG" class="d-block w-100" alt="Tito">
+							</div>
+							<div class="carousel-item">
+								<h5>Merkel</h5>
+								<a href="https://www.instagram.com/makan.onion/" target="_blank" class="btn btn-outline-light" role="button" aria-pressed="true" title="Merkel">Instagram</a>
+								<br><br>
+								<img src="p/Merkel.JPG" class="d-block w-100" alt="Merkel">
+							</div>
+							<div class="carousel-item">
+								<h5>Teddy</h5>
+								<a href="https://www.instagram.com/awan.836/" target="_blank" class="btn btn-outline-light" role="button" aria-pressed="true" title="Teddy">Instagram</a>
+								<br><br>
+								<img src="p/Teddy.JPG" class="d-block w-100" alt="Teddy">
+							</div>
+							<div class="carousel-item">
+								<h5>Sampurna</h5>
+								<a href="https://www.instagram.com/christoporussam/" target="_blank" class="btn btn-outline-light" role="button" aria-pressed="true" title="Sampurna">Instagram</a>
+								<br><br>
+							<img src="p/Sampurna.JPG" class="d-block w-100" alt="Sampurna">
+							</div>
+							<div class="carousel-item">
+								<h5>Evan</h5>
+								<a href="https://www.instagram.com/josephevandesrin/" target="_blank" class="btn btn-outline-light" role="button" aria-pressed="true" title="Evan">Instagram</a>
+								<br><br>
+								<img src="p/Evan.JPG" class="d-block w-100" alt="Evan">
+							</div>
+							<div class="carousel-item">
+								<h5>Tino</h5>
+								<a href="https://www.instagram.com/tinoodalopez_/" target="_blank" class="btn btn-outline-light" role="button" aria-pressed="true" title="Tino">Instagram</a>
+								<br><br>
+								<img src="p/Tino.JPG" class="d-block w-100" alt="Tino">
+							</div>
+							<div class="carousel-item">  
+								<h5>Defa</h5>
+								<a href="https://www.instagram.com/defamoses____/" target="_blank" class="btn btn-outline-light" role="button" aria-pressed="true" title="Defa">Instagram</a>
+								<br><br>
+								<img src="p/Defa.JPG" class="d-block w-100 " alt="Defa">
+							</div>
+							<div class="carousel-item">
+								<h5>Rei</h5>
+								<a href="https://www.instagram.com/rei_gracideo/" target="_blank" class="btn btn-outline-light" role="button" aria-pressed="true" title="Rei">Instagram</a>
+								<br><br>
+								<img src="p/Defa.JPG" class="d-block w-100" alt="Rei">
+							</div>
+							<div class="carousel-item">
+								<h5>Skolastika Widiatikasyanti, M.Pd.</h5>
+								<br>
+								<p>fasilitator</p>
+								<img src="p/Defa.JPG" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<h5>Rm. Hieronymus Rony Suryo Nugroho, Pr</h5>
+								<p>Fasilitator</p>
+								<img src="p/Defa.JPG" class="d-block w-100" alt="...">
+								</div>
+							</div>
+						</div>
+						
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer class="bg-dark text-center text-lg-start">
+			<div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+				Made with Care in Mertoyudan Minor Seminary @2023
+			</div>
+		</footer>
 
 
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 	</body>
 </html>

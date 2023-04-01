@@ -1,13 +1,13 @@
 #scrollBtn {
     display: none;
     position: fixed;
-    bottom: 20px;
+    bottom: 50px;
     right: 20px;
     z-index: 9999;
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #007bff;
+    background-color: rgba(0, 110, 204, 0.41);
     color: white;
     cursor: pointer;
     /* padding: 20px; */
@@ -17,7 +17,7 @@
   }
   
   #scrollBtn:hover {
-    background-color: #0062cc;
+    background-color: rgba(0, 99, 204, 0.41);
   }
 
   i.fa-arrow-up{
